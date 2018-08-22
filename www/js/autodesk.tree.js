@@ -38,14 +38,14 @@ function prepareAutodeskTree() {
               haveBIM360Hub = true;
           });
 
-          if (!haveBIM360Hub) {
+          /*if (!haveBIM360Hub) {
             $("#provisionAccountModal").modal();
             $("#provisionAccountSave").click(function () {
               $('#provisionAccountModal').modal('toggle');
               $('#autodeskTree').jstree(true).refresh();
             });
             haveBIM360Hub = true;
-          }
+          }*/
         }
       }
     },
